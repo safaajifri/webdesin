@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Js code</title>
+</head>
+<body>
+<form>
+		<label>Last name</label><br>
+	<input type="text" id="fname" placeholder="enter F-name"> <p id="f-alert"></p> <br> 
+		<label>Last name</label><br>
+	<input type="text" id="lname" placeholder="enter F-name"> <p id="L-alert"></p> <br> 
+
+		<button onclick=" return check()">Send</button>
+</form>
+
+<script type="text/javascript">
+	
+function check() {
+ var fcheck = document.getElementById("fname");
+ var lcheck = document.getElementById("lname");
+
+ if( fcheck.value === ""){
+ 	document.getElementById("f-alert").innerHTML= "Please Enter your First-name"
+ 	//alert("missing value.");
+ 	fcheck.focus();
+ 	return false; 
+ }
+  if( lcheck.value === ""){
+ 	document.getElementById("L-alert").innerHTML= "Please Enter your Last-name"
+ 	//alert("missing value.");
+ 	lcheck.focus();
+ 	return false; 
+ }
+}
+</script>
+</body>
+</html>

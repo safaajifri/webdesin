@@ -1,0 +1,137 @@
+body{
+	background: #F1D3B3;
+	margin: 1%;
+}
+
+header{
+	background:#C7BCA1 ;
+	padding: 5%;
+	text-align: center;
+
+
+}
+nav > a{
+	text-decoration: none;
+color: #65647C;
+font-size: 30px;
+padding: 2%;
+}
+nav > a:hover{
+	background: #8B7E74;
+	border-radius:40px;
+	color:#C7BCA1 ;
+}
+h2,h3{
+		font-size: 40px;
+		text-align: center;
+}
+.login{
+	padding: 2%;
+	background:#C7BCA1;
+	margin: 0 auto;
+	height: 240px;
+	width: 240px;
+
+}
+form{
+	margin: 0 auto;
+}
+.log{
+	margin-top: 5%;
+	padding: 2%;
+		height: 50px;
+	width: 100px;
+	background: #C7BCA1;
+	border: 2px solid #8B7E74;
+	font-size: 16px;
+	color:#65647C;
+	font-style: italic ;
+	font-family: times;
+}
+#link{
+	margin-top: 5%;
+	text-decoration: none;
+color: #65647C;
+padding: 2%;
+}
+.category{
+font-size: 30px;
+	margin-top: 2%;
+	background: #C7BCA1;
+	padding: 2%;
+}
+.scroll{
+	 overflow: auto;white-space: nowrap;
+}
+.item{
+  
+	display: inline-block;
+	
+	background: #65647C;
+	height: 420px;
+	width: 400px;
+	margin-top:2%;
+	margin-right: 2%;
+		border: 2px solid #8B7E74;
+}
+.cupimg{
+	margin-top: 4%;
+	display: inline-block;
+	height: 240px;
+	width: 240px;
+float: initial;
+}
+.descrption {	font-size: 20px;
+	text-align: center;
+}
+
+
+.Price{
+	font-size: 15px;
+	text-align: center;
+}
+.cart{
+	padding: 2%;
+		height: 50px;
+	width: 100px;
+	background: #C7BCA1;
+	border: 2px solid #8B7E74;
+	font-size: 16px;
+	color:#65647C;
+	font-style: italic ;
+	font-family: times;
+}
+footer{
+margin-top: 5%;
+background: #C7BCA1;
+	padding: 2%;
+
+}
+h6{	text-align: center;}
+.social img{
+
+height: 20px;
+	width: 20px;
+ }	
+
+
+
+.signup{
+	margin-top: 2%;
+	background: #C7BCA1;
+	padding: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
